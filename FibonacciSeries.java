@@ -1,4 +1,4 @@
-//Algorithm for fibonacci series upto n number;
+//Algorithm for fibonacci series for element at n number;
 import java.util.*;
 public class Day_006 {
 
@@ -9,13 +9,12 @@ public class Day_006 {
 		int a = 0;
 		int b = 1;
 		int c = 0;
-		System.out.print( a + " " + b + " " );
 		for(int i = 1 ; i < n ; i++) {
 			c = a + b;
 			a = b;
 			b = c;
-			System.out.print(c+" ");
 		}
+		System.out.println(c);
 	}
 
 }
