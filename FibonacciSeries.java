@@ -1,3 +1,4 @@
+//Algorithm for fibonacci series upto n number;
 import java.util.*;
 public class Day_006 {
 
