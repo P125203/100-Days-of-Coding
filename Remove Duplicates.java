@@ -1,3 +1,4 @@
+//Algorithm to remove duplicates from a sorted array.
 import java.util.*;
 public class Day_007 {
     public int removeDuplicates(int[] nums) {
