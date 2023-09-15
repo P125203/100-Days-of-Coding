@@ -1,3 +1,4 @@
+//Algorithm for removing whitespaces, special chars and numbers.
 import java.util.*;
 public class Day_010 {
 
@@ -5,7 +6,7 @@ public class Day_010 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		String substr = "";
-		int n = 0;
+//		int n = 0;
 		
 		for(int i = 0 ; i < str.length() ; i++) {
 			if(Character.isAlphabetic(str.charAt(i)) == true) {
@@ -16,7 +17,5 @@ public class Day_010 {
 //			}
 		}
 		System.out.print(substr);
-
 	}
-
 }
