@@ -1,3 +1,4 @@
+//Algorithm for counting total no. of chars in  a string.
 import java.util.*;
 public class Day_012 {
 
